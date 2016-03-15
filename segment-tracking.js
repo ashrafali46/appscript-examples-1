@@ -61,8 +61,8 @@ function segmentTracking() {
       var response = UrlFetchApp.fetch(url, options);
       Logger.log("Sent Segment tracking event for " + accountId);
 
-      // write YES in that
-      sheet.getRange((Number(i)+2), 14).setValue("YES"); // this will be updated based on where in your spreadsheet you track that a segment event is recorded.
+      // write YES in the 15th column of that row to indicate we've saved the data.
+      sheet.getRange((Number(i)+2), 14).setValue("YES");
     }
   }
 }
