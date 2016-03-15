@@ -24,7 +24,7 @@ function segmentTracking() {
     var guru = row[9]
     var careerReason = row[6]
 
-    if (segmentSet != "YES") { // this checks if the student has been tracked in segment before. In line 61, I set the value of a column in each row to "YES" once the tracking event is fired.
+    if (segmentSet != "YES") { // this checks if the student has been tracked in segment before. In line 65, I set the value of a column in each row to "YES" once the tracking event is fired.
       if (accountId == "") { // if I haven't manually set the account ID yet, I don't want to send a tracking event.
         continue
       }
