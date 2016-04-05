@@ -6,16 +6,16 @@ Below are screenshots to help first-time AppScript users set up a script for the
 
 ### Locate Script Editor in your Current Project
 
-![alt tag](https://raw.githubusercontent.com/christinehall/appscript-examples/main/images/access-code-editor.png)
+![alt tag](https://raw.githubusercontent.com/christinehall/appscript-examples/master/images/access-code-editor.png)
 
 This will lead you to an IDE where you can develop, run and debug your code.
 
 ### Set up a Trigger
 
-![alt tag](https://raw.githubusercontent.com/christinehall/appscript-examples/main/images/where-to-set.png)
+![alt tag](https://raw.githubusercontent.com/christinehall/appscript-examples/master/images/where-to-set.png)
 
 Under the resources tab, you can access your current projects triggers. This will launch a pop-up:
 
-![alt tag](https://raw.githubusercontent.com/christinehall/appscript-examples/main/images/trigger.png)
+![alt tag](https://raw.githubusercontent.com/christinehall/appscript-examples/master/images/trigger.png)
 
 Many of the projects in this repo are dependent on timers or run on edit. Choose what works best for you.
